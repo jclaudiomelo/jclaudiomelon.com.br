@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organiza Compras | Seu Assistente Financeiro Pessoal</title>
+    <meta name="description" content="Esqueça as planilhas complexas. Controle seus gastos de supermercado lendo notas fiscais (NFC-e), consulte preços na gôndola por código de barras e crie listas de compras inteligentes com o Organiza Compras.">
+    <meta name="keywords" content="Organiza Compras, leitor de notas fiscais, NFC-e, consulta de preço código de barras, lista de compras inteligente, controle financeiro pessoal, aplicativo finanças, controle de gastos mercado, Claudio Melo">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://jclaudiomelo.com.br/organiza-compras/">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Flaticon Uicons CDN -->
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.1.0/uicons-brands/css/uicons-brands.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="../" class="back-link">
+                <i class="fi fi-rr-arrow-left"></i> Voltar ao Portfólio
+            </a>
+            <div class="logo">
+                <span class="logo-accent">Organiza</span>Compras
+            </div>
+        </div>
+    </header>
+
+    <section class="app-hero">
+        <div class="ambient-glow glow-1"></div>
+        <div class="ambient-glow glow-2"></div>
+        
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="badge">Versão 1.1.0 • App Android</span>
+                <h1>Seu assistente financeiro definitivo para compras e controle de gastos!</h1>
+                <p class="subtitle">
+                    Esqueça as planilhas complexas e anotações manuais. Com o <strong>Organiza Compras</strong>, você escaneia cupons fiscais (NFC-e) em segundos, consulta preços por código de barras na gôndola, gera listas de compras com estimativa de valor em tempo real e compara supermercados para economizar de verdade.
+                </p>
+                
+                <div class="hero-actions">
+                    <a href="https://play.google.com/store/apps/details?id=com.organiza_compras" target="_blank" class="btn btn-primary">
+                        Baixar na Play Store <i class="fi fi-rr-play"></i>
+                    </a>
+                    <a href="#recursos" class="btn btn-secondary">
+                        Ver Recursos <i class="fi fi-rr-arrow-down"></i>
+                    </a>
+                </div>
+                
+                <div class="app-features-list">
+                    <div class="feature-item">
+                        <i class="fi fi-rr-qr-code"></i>
+                        <div>
+                            <h3>Leitor de Cupons Fiscais (NFC-e / NF-e)</h3>
+                            <p>Aponte a câmera para o QR Code da nota fiscal. O app extrai o estabelecimento, data, produtos, pesos (kg/g), valores unitários e formas de pagamento automaticamente.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fi fi-rr-barcode"></i>
+                        <div>
+                            <h3>Consulta de Preço por Código de Barras</h3>
+                            <p>Bipe qualquer produto na gôndola do mercado com a câmera e confira na hora seu histórico: último preço pago, menor preço registrado e preço médio.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fi fi-rr-list-check"></i>
+                        <div>
+                            <h3>Lista de Compras com Estimativa em Tempo Real</h3>
+                            <p>Adicione produtos e veja quanto seu carrinho vai custar antes de chegar ao caixa, baseado no histórico de preços das suas compras anteriores.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-mockup">
+                <div class="phone-frame">
+                    <img src="../assets/organizacompras.webp" alt="Organiza Compras App" style="width: 100%; height: 100%; border-radius: inherit; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Completa de Funcionalidades -->
+    <section class="features-section" id="recursos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Recursos Poderosos</span>
+                <h2 class="section-title">Tudo o que você precisa para dominar suas finanças</h2>
+                <p class="section-subtitle">Construído em Flutter com arquitetura moderna, design limpo no Material 3 Dark e foco total em velocidade e economia.</p>
+            </div>
+
+            <div class="features-grid">
+                <!-- Card 1: Scanner SEFAZ -->
+                <div class="feature-card">
+                    <div class="card-top">
+                        <div class="card-icon">
+                            <i class="fi fi-rr-qr-code"></i>
+                        </div>
+                        <span class="card-pill">Automático</span>
+                    </div>
+                    <h3>Scanner & Parser SEFAZ</h3>
+                    <p>Leitura de notas fiscais diretamente dos portais da SEFAZ em todo o país. O app lê os dados completos da compra sem exigir certificado digital ou digitação manual.</p>
+                    <ul class="card-highlights">
+                        <li><i class="fi fi-rr-check"></i> Captura produtos, marcas e quantidades</li>
+                        <li><i class="fi fi-rr-check"></i> Normalização de itens a peso (kg) e volume (litros)</li>
+                        <li><i class="fi fi-rr-check"></i> Detecção de descontos e forma de pagamento</li>
+                    </ul>
+                </div>
+
+                <!-- Card 2: Consultar Preço -->
+                <div class="feature-card">
+                    <div class="card-top">
+                        <div class="card-icon">
+                            <i class="fi fi-rr-barcode"></i>
+                        </div>
+                        <span class="card-pill">Novo</span>
+                    </div>
+                    <h3>Consultar Preço na Gôndola</h3>
+                    <p>Módulo dedicado com leitor de código de barras (EAN-13, EAN-8) e busca textual. Descubra na hora se aquela promoção de prateleira realmente vale a pena.</p>
+                    <ul class="card-highlights">
+                        <li><i class="fi fi-rr-check"></i> Exibe último, menor, maior e preço médio</li>
+                        <li><i class="fi fi-rr-check"></i> Selo inteligente "Bom Preço" vs "Acima da Média"</li>
+                        <li><i class="fi fi-rr-check"></i> Atalho para adicionar direto à Lista de Compras</li>
+                    </ul>
+                </div>
+
+                <!-- Card 3: Lista de Compras Inteligente -->
+                <div class="feature-card">
+                    <div class="card-top">
+                        <div class="card-icon">
+                            <i class="fi fi-rr-shopping-cart"></i>
+                        </div>
+                        <span class="card-pill">Inteligente</span>
+                    </div>
+                    <h3>Lista de Compras Preditiva</h3>
+                    <p>Monte listas de compras com sugestões automáticas. Conforme você adiciona itens, o app estima o valor total do seu carrinho com base no seu histórico.</p>
+                    <ul class="card-highlights">
+                        <li><i class="fi fi-rr-check"></i> Previsão do total da compra em tempo real</li>
+                        <li><i class="fi fi-rr-check"></i> Modo Mercado: marque os produtos no carrinho</li>
+                        <li><i class="fi fi-rr-check"></i> Exportação formatada para o WhatsApp em 1 clique</li>
+                    </ul>
+                </div>
+
+                <!-- Card 4: Onde Rende Mais -->
+                <div class="feature-card">
+                    <div class="card-top">
+                        <div class="card-icon">
+                            <i class="fi fi-rr-shop"></i>
+                        </div>
+                        <span class="card-pill">Economia</span>
+                    </div>
+                    <h3>Comparador de Supermercados</h3>
+                    <p>Descubra onde o seu dinheiro rende mais! Painel analítico que compara os estabelecimentos que você frequenta para identificar o melhor custo-benefício.</p>
+                    <ul class="card-highlights">
+                        <li><i class="fi fi-rr-check"></i> Ticket médio e total gasto por estabelecimento</li>
+                        <li><i class="fi fi-rr-check"></i> Frequência de visitas e variedade de itens</li>
+                        <li><i class="fi fi-rr-check"></i> Decisões embasadas em dados reais de notas</li>
+                    </ul>
+                </div>
+
+                <!-- Card 5: Gestão de Cartões -->
+                <div class="feature-card">
+                    <div class="card-top">
+                        <div class="card-icon">
+                            <i class="fi fi-rr-credit-card"></i>
+                        </div>
+                        <span class="card-pill">Finanças</span>
+                    </div>
+                    <h3>Gestão de Cartões de Crédito</h3>
+                    <p>Cadastro ágil com 1 toque para os principais bancos (Nubank, Inter, Itaú, C6, Bradesco, Santander, etc.), bandeiras e controle detalhado de faturas.</p>
+                    <ul class="card-highlights">
+                        <li><i class="fi fi-rr-check"></i> "Melhor Cartão para Comprar Hoje" (até 40 dias de prazo)</li>
+                        <li><i class="fi fi-rr-check"></i> Divisão de limites: fatura atual vs parcelas futuras</li>
+                        <li><i class="fi fi-rr-check"></i> Opção para marcar faturas como pagas</li>
+                    </ul>
+                </div>
+
+                <!-- Card 6: Exportação de Relatórios -->
+                <div class="feature-card">
+                    <div class="card-top">
+                        <div class="card-icon">
+                            <i class="fi fi-rr-chart-histogram"></i>
+                        </div>
+                        <span class="card-pill">Relatórios</span>
+                    </div>
+                    <h3>Exportação em PDF e Excel (CSV)</h3>
+                    <p>Acompanhe seus gastos por categorias e exporte seus relatórios mensais ou anuais em documentos PDF de alta definição ou planilhas prontas para análise.</p>
+                    <ul class="card-highlights">
+                        <li><i class="fi fi-rr-check"></i> PDF formatado com indicadores e categorias</li>
+                        <li><i class="fi fi-rr-check"></i> Planilha CSV (Excel) com detalhamento item a item</li>
+                        <li><i class="fi fi-rr-check"></i> Compartilhamento nativo pelo WhatsApp, e-mail e Drive</li>
+                    </ul>
+                </div>
+
+                <!-- Card 7: Histórico Paginado -->
+                <div class="feature-card">
+                    <div class="card-top">
+                        <div class="card-icon">
+                            <i class="fi fi-rr-time-past"></i>
+                        </div>
+                        <span class="card-pill">Performance</span>
+                    </div>
+                    <h3>Histórico com Paginação Fluida</h3>
+                    <p>Desenvolvido para alta escala: mesmo com milhares de notas fiscais salvas, o histórico navega suavemente sem consumir memória excessiva ou travar o celular.</p>
+                    <ul class="card-highlights">
+                        <li><i class="fi fi-rr-check"></i> Paginação configurável (10, 15, 25 ou 50 por página)</li>
+                        <li><i class="fi fi-rr-check"></i> Filtros rápidos: Hoje, 7 Dias, Mês e Personalizado</li>
+                        <li><i class="fi fi-rr-check"></i> Salto instantâneo para qualquer página</li>
+                    </ul>
+                </div>
+
+                <!-- Card 8: Segurança e Biometria -->
+                <div class="feature-card">
+                    <div class="card-top">
+                        <div class="card-icon">
+                            <i class="fi fi-rr-shield-check"></i>
+                        </div>
+                        <span class="card-pill">Segurança</span>
+                    </div>
+                    <h3>Privacidade & Bloqueio Biométrico</h3>
+                    <p>Seus dados financeiros protegidos. Bloqueio por Impressão Digital ou Face ID, arquitetura Offline-First e sincronização segura com criptografia.</p>
+                    <ul class="card-highlights">
+                        <li><i class="fi fi-rr-check"></i> Bloqueio por Biometria / Face ID / Digital</li>
+                        <li><i class="fi fi-rr-check"></i> Cache local criptografado (funciona sem internet)</li>
+                        <li><i class="fi fi-rr-check"></i> Exclusão de conta segura com código de 6 dígitos via e-mail</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CTA Banner -->
+            <div class="cta-banner">
+                <h2>Comece a economizar em cada ida ao supermercado</h2>
+                <p>Baixe gratuitamente o aplicativo Organiza Compras na Google Play Store e tenha o controle absoluto dos seus gastos na palma da mão.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.organiza_compras" target="_blank" class="btn btn-primary">
+                    Instalar Grátis no Android <i class="fi fi-rr-play"></i>
+                </a>
+                <div class="badges-row">
+                    <div class="badge-item"><i class="fi fi-rr-check-circle"></i> 100% Gratuito</div>
+                    <div class="badge-item"><i class="fi fi-rr-cloud-check"></i> Funciona Offline</div>
+                    <div class="badge-item"><i class="fi fi-rr-fingerprint"></i> Bloqueio Biométrico</div>
+                    <div class="badge-item"><i class="fi fi-rr-shield-check"></i> Dados Criptografados</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Claudio Melo. Desenvolvido para exibição de projeto Android • Organiza Compras v1.1.0.</p>
+        </div>
+    </footer>
+</body>
+</html>
